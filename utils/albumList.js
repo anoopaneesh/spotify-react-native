@@ -1,0 +1,31 @@
+export const albumList = {
+    id:'1',
+    name:'Love is life',
+    items:[
+        {
+            id:'1',
+            name:'Love',
+            imageUri:'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-album-cover-image-design-template-0f1279a32ef34a7a6b62599e36a8e558_screen.jpg?ts=1561544979'
+        },
+        {
+            id:'2',
+            name:'Love',
+            imageUri:'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-album-cover-image-design-template-0f1279a32ef34a7a6b62599e36a8e558_screen.jpg?ts=1561544979'
+        },
+        {
+            id:'3',
+            name:'Love',
+            imageUri:'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-album-cover-image-design-template-0f1279a32ef34a7a6b62599e36a8e558_screen.jpg?ts=1561544979'
+        },
+        {
+            id:'4',
+            name:'Love',
+            imageUri:'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-album-cover-image-design-template-0f1279a32ef34a7a6b62599e36a8e558_screen.jpg?ts=1561544979'
+        },
+        {
+            id:'5',
+            name:'Love',
+            imageUri:'https://d1csarkz8obe9u.cloudfront.net/posterpreviews/love-album-cover-image-design-template-0f1279a32ef34a7a6b62599e36a8e558_screen.jpg?ts=1561544979'
+        },
+    ]
+}
