@@ -2,8 +2,7 @@ import React from "react";
 import { View, Text } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Entypo, AntDesign } from "@expo/vector-icons";
-
-import HomeScreen from "../Screens/HomeScreen/HomeScreen";
+import TabOne from "./TabOne";
 
 
 const Tab = createBottomTabNavigator();
@@ -20,6 +19,7 @@ const options = {
   activeTintColor: "white",
   inactiveTintColor: "gray",
   style: {
+    paddingTop:10,
     borderTopWidth: 0,
     backgroundColor: "black",
   },
@@ -49,7 +49,7 @@ const BottomTab = () => {
     <Tab.Navigator tabBarOptions={options}>
       <Tab.Screen
         name="Home"
-        component={HomeScreen}
+        component={TabOne}
         options={{
           tabBarIcon: ({ focused, color, size }) =>
             getIcon(focused, color, "Home"),
