@@ -8,10 +8,10 @@ const Tab = createBottomTabNavigator()
 
 
 const Home = () => {
-    return <View style={{backgroundColor:'black',flex:1}}><Text style={{backgroundColor:'white'}}>Home</Text></View>
+    return <View style={{backgroundColor:'black',flex:1}}><Text style={{color:'white'}}>Home</Text></View>
 }
 const Search = () => {
-    return <View style={{backgroundColor:'black',flex:1}}><Text style={{backgroundColor:'white'}}>Search</Text></View>
+    return <View style={{backgroundColor:'black',flex:1}}><Text style={{color:'white'}}>Search</Text></View>
 }
 
 const options = {
